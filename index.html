@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="lv">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title data-i18n="title">Mājaslapa par mani</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1 data-i18n="name">Čau, esmu Marija!</h1>
+        <p data-i18n="desc">Frontend izstrādātāja, ceļotāja un mūzikas mīļotāja.</p>
+        <nav>
+            <a href="#about" data-i18n="navAbout">Par mani</a>
+            <a href="#interests" data-i18n="navInterests">Intereses</a>
+            <a href="#projects" data-i18n="navProjects">Projekti</a>
+            <a href="#tech" data-i18n="navTech">Tehnoloģijas</a>
+            <a href="#travel" data-i18n="navTravel">Ceļojumi</a>
+            <a href="#music" data-i18n="navMusic">Mūzika</a>
+            <a href="#contact" data-i18n="navContact">Saziņa</a>
+            <a href="#goals" data-i18n="navGoals">Mērķi</a>
+        </nav>
+        <button id="lang-btn">English</button>
+    </header>
+
+    <section id="about" class="section">
+        <h2 data-i18n="aboutTitle">Par mani</h2>
+        <p data-i18n="aboutText1">Man ir 18 gadi, mācos par programmētāju Rīgā un sapņoju kļūt par promoteri. Man patīk veidot mājaslapas un klausīties mūziku.</p>
+        <p data-i18n="aboutText2">Interesants fakts: es šļupstu uz burta "s", bet tas netraucē rakstīt kodu!</p>
+    </section>
+
+    <section id="interests" class="section">
+        <h2 data-i18n="interestsTitle">Intereses</h2>
+        <ul>
+            <li data-i18n="interest1">Grāmatu lasīšana</li>
+            <li data-i18n="interest2">Dizains</li>
+            <li data-i18n="interest3">Ceļošana</li>
+            <li data-i18n="interest4">Fotografēšana</li>
+            <li data-i18n="interest5">Spēles: Minecraft, Sims</li>
+            <li data-i18n="interest6">Mūzika</li>
+        </ul>
+    </section>
+
+    <section id="projects" class="section">
+        <h2 data-i18n="projectsTitle">Mani projekti</h2>
+        <ul>
+            <li><a href="https://ann335.github.io/game" target="_blank" data-i18n="project1">Spēle par desiņām un suši</a></li>
+        </ul>
+    </section>
+
+    <section id="tech" class="section">
+        <h2 data-i18n="techTitle">Tehnoloģijas</h2>
+        <div class="tech-icons">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="HTML">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="CSS">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="JS">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg" alt="Figma">
+        </div>
+    </section>
+
+    <section id="travel" class="section">
+        <h2 data-i18n="travelTitle">Ceļojumi</h2>
+        <div class="map">
+            <img src="img/images.jpg" alt="Pasaules karte">
+        </div>
+        <ul>
+            <li data-i18n="travel1">Biju: Polija, Lietuva</li>
+            <li data-i18n="travel2">Vēlos apmeklēt: Spānija, Norvēģija, Zviedrija, Somija</li>
+        </ul>
+    </section>
+
+    <section id="music" class="section">
+        <h2 data-i18n="musicTitle">Mīļākā mūzika</h2>
+        <ul class="playlist">
+            <li data-i18n="song1">POSHLAYA MOLLY — TMSTS</li>
+            <li data-i18n="song2">NOIZE MC — MAKE SOME NOIZE</li>
+            <li data-i18n="song3">OXXXYMIRON — FATA MORGANA</li>
+        </ul>
+    </section>
+
+    <section id="contact" class="section">
+        <h2 data-i18n="contactTitle">Saziņa</h2>
+        <p><span data-i18n="contactText">Raksti uz</span> <a href="mailto:sobolevamarija19@gmail.com">sobolevamarija19@gmail.com</a> <span data-i18n="or">vai</span> <a href="https://t.me/mqrlly" target="_blank">Telegram</a>.</p>
+    </section>
+
+    <section id="goals" class="section">
+        <h2 data-i18n="goalsTitle">Mērķi</h2>
+        <ul>
+            <li data-i18n="goal1">Iemācīties vācu valodu</li>
+            <li data-i18n="goal2">Ceļot vasarā 2025</li>
+            <li data-i18n="goal3">Palaist savu mājaslapu</li>
+        </ul>
+    </section>
+
+    <div class="secret">
+        <button id="secret-btn" data-i18n="secretBtn">Nenospied</button>
+        <p class="hidden-message" id="hidden-message" data-i18n="secretMsg">Tu atradi slepeno faktu: es varu dzert kafiju 3 reizes dienā un nejūtos nogurusi ☕</p>
+    </div>
+
+    <footer>
+        <p>© 2025 Marija Soboleva</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
